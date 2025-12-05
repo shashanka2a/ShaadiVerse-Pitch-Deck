@@ -80,6 +80,11 @@ export default function Home() {
             <ChevronRight className="w-6 h-6 text-[#C41E3A]" />
           </button>
         </div>
+
+        {/* Desktop recommendation */}
+        <p className="text-xs text-gray-500 opacity-70 text-center mt-2">
+          For the best experience, please view on laptop or desktop
+        </p>
       </div>
 
       {/* Keyboard hint */}
@@ -111,9 +116,6 @@ function TitleSlide() {
           Organizing India's Massive <span className="text-[#C41E3A] border-b-4 border-[#C41E3A]">Tier-2 & Tier-3</span> Wedding Market
         </p>
         <div className="mt-12 w-24 h-1 bg-[#C41E3A] mx-auto"></div>
-      </div>
-      <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 z-10">
-        <p className="text-xs text-gray-500 opacity-70">For the best experience, please view on laptop or desktop</p>
       </div>
     </div>
   );
