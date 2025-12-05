@@ -426,8 +426,14 @@ function TeamSlide() {
         {/* Founder 1 */}
         <div className="bg-white p-8 rounded-xl shadow-lg border-2 border-[#C41E3A]/30">
           <div className="flex items-start gap-4 mb-6">
-            <div className="w-20 h-20 rounded-full bg-gradient-to-br from-[#C41E3A] to-[#8B1538] flex items-center justify-center text-white flex-shrink-0 shadow-lg">
-              <Users className="w-10 h-10" />
+            <div className="w-20 h-20 rounded-full overflow-hidden flex-shrink-0 shadow-lg border-2 border-[#C41E3A]/30">
+              <Image 
+                src="/bhavana.png"
+                alt="Bhavana Sirpa"
+                width={80}
+                height={80}
+                className="w-full h-full object-cover"
+              />
             </div>
             <div>
               <h3 className="text-2xl text-[#8B1538] mb-1">Bhavana Sirpa</h3>
@@ -460,8 +466,14 @@ function TeamSlide() {
         {/* Founder 2 */}
         <div className="bg-white p-8 rounded-xl shadow-lg border-2 border-[#C41E3A]/30">
           <div className="flex items-start gap-4 mb-6">
-            <div className="w-20 h-20 rounded-full bg-gradient-to-br from-[#C41E3A] to-[#8B1538] flex items-center justify-center text-white flex-shrink-0 shadow-lg">
-              <TrendingUp className="w-10 h-10" />
+            <div className="w-20 h-20 rounded-full overflow-hidden flex-shrink-0 shadow-lg border-2 border-[#C41E3A]/30">
+              <Image 
+                src="/shashank.png"
+                alt="Shashank Jagannatham"
+                width={80}
+                height={80}
+                className="w-full h-full object-cover"
+              />
             </div>
             <div>
               <h3 className="text-2xl text-[#8B1538] mb-1">Shashank Jagannatham</h3>
