@@ -95,7 +95,7 @@ function TitleSlide() {
     <div className="relative min-h-[600px] flex flex-col items-center justify-center p-16 bg-white">
       <div className="absolute inset-0 opacity-60">
         <Image 
-          src="https://images.unsplash.com/photo-1626358971654-ec3e1eb0439a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjB3ZWRkaW5nJTIwc21hbGwlMjB0b3duJTIwdHJhZGl0aW9uYWx8ZW58MXx8fHwxNzY0ODcwNDg2fDA&ixlib=rb-4.1.0&q=80&w=1080"
+          src="/image.png"
           alt="Indian wedding traditional ceremony"
           fill
           className="object-cover"
