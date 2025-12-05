@@ -112,7 +112,7 @@ function TitleSlide() {
           <Heart className="w-16 h-16 text-[#C41E3A] fill-[#C41E3A]" />
           <h1 className="text-7xl text-gray-900">ShaadiVerse</h1>
         </div>
-        <p className="text-3xl max-w-3xl mx-auto text-gray-700 italic">
+        <p className="text-3xl max-w-3xl mx-auto text-white font-bold italic">
           Organizing India's Massive <span className="text-[#C41E3A] border-b-4 border-[#C41E3A]">Tier-2 & Tier-3</span> Wedding Market
         </p>
         <div className="mt-12 w-24 h-1 bg-[#C41E3A] mx-auto"></div>
@@ -181,13 +181,13 @@ function SolutionSlide() {
         </div>
         
         <div className="bg-white border-2 border-[#C41E3A] p-6 rounded-xl">
-          <h3 className="text-xl text-[#8B1538] mb-3">Vernacular</h3>
-          <p className="text-gray-600">App available in Hindi, Tamil, Marathi, etc.</p>
+          <h3 className="text-xl text-[#8B1538] mb-3">Multi-Language Support</h3>
+          <p className="text-gray-600">App available in Hindi, Telugu, etc.</p>
         </div>
         
         <div className="bg-white border-2 border-[#C41E3A] p-6 rounded-xl">
           <h3 className="text-xl text-[#8B1538] mb-3">Video-Led</h3>
-          <p className="text-gray-600">Browse vendors through raw, unedited videos (Reels) of their work</p>
+          <p className="text-gray-600">Browse vendors through photos/videos (Reels) of their work</p>
         </div>
         
         <div className="bg-white border-2 border-[#C41E3A] p-6 rounded-xl">
@@ -320,7 +320,7 @@ function GTMSlide() {
             </div>
             <div>
               <h3 className="text-xl text-[#8B1538] mb-2">Phase 1 (The Hubs)</h3>
-              <p className="text-gray-600">Launch in 3 major Tier-2 hubs (e.g., Indore, Lucknow, Coimbatore)</p>
+              <p className="text-gray-600">Launch in 3 major Tier-2 hubs (e.g., Nizamabad, Warangal, Medchal)</p>
             </div>
           </div>
         </div>
@@ -400,7 +400,7 @@ function CompetitiveSlide() {
             <tr className="bg-gradient-to-r from-[#C41E3A]/10 to-transparent border-2 border-[#C41E3A]">
               <td className="p-4 text-[#C41E3A]">ShaadiVerse (Us)</td>
               <td className="p-4 text-[#8B1538]">Affordable</td>
-              <td className="p-4 text-[#8B1538]">Vernacular</td>
+              <td className="p-4 text-[#8B1538]">Multi-Lingual</td>
               <td className="p-4 text-[#8B1538]">Wedding-Only</td>
               <td className="p-4 text-[#8B1538]">Verified</td>
             </tr>
@@ -513,7 +513,7 @@ function AskSlide() {
 
       <div className="grid grid-cols-3 gap-6 mb-8">
         <div className="bg-gradient-to-br from-gray-50 to-white p-6 rounded-xl border-2 border-[#C41E3A]/30 text-center shadow-md">
-          <div className="text-5xl text-[#C41E3A] mb-2">60%</div>
+          <div className="text-5xl text-[#C41E3A] mb-2">50%</div>
           <p className="text-gray-700">Vendor Acquisition (Sales Team)</p>
         </div>
         
@@ -523,7 +523,7 @@ function AskSlide() {
         </div>
         
         <div className="bg-gradient-to-br from-gray-50 to-white p-6 rounded-xl border-2 border-[#C41E3A]/30 text-center shadow-md">
-          <div className="text-5xl text-[#C41E3A] mb-2">10%</div>
+          <div className="text-5xl text-[#C41E3A] mb-2">20%</div>
           <p className="text-gray-700">Marketing</p>
         </div>
       </div>
