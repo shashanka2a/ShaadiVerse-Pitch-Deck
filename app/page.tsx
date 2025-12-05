@@ -112,8 +112,8 @@ function TitleSlide() {
           <Heart className="w-16 h-16 text-[#C41E3A] fill-[#C41E3A]" />
           <h1 className="text-7xl text-gray-900">ShaadiVerse</h1>
         </div>
-        <p className="text-3xl max-w-3xl mx-auto text-white font-bold italic">
-          Organizing India's Massive <span className="text-[#C41E3A] border-b-4 border-[#C41E3A]">Tier-2 & Tier-3</span> Wedding Market
+        <p className="text-3xl max-w-3xl mx-auto text-white font-bold italic drop-shadow-lg">
+          Organizing India's Massive <span className="text-[#C41E3A] border-b-4 border-[#C41E3A] drop-shadow-lg">Tier-2 & Tier-3</span> Wedding Market
         </p>
         <div className="mt-12 w-24 h-1 bg-[#C41E3A] mx-auto"></div>
       </div>
@@ -494,7 +494,7 @@ function TeamSlide() {
 
       <div className="bg-gradient-to-br from-[#FFF5E6] to-[#FFE8CC] p-6 rounded-xl">
         <h3 className="text-xl text-[#8B1538] mb-3">Why This Team Wins</h3>
-        <p className="text-gray-700">Perfect combination of enterprise growth expertise (Cokpit, GTM strategy) and prolific product building (25+ products). Bhavana brings proven 0→1 scaling experience across markets, while Shashank brings relentless execution and deep technical expertise in building for SMBs and students.</p>
+        <p className="text-gray-700">Enterprise growth expertise meets prolific product execution. Bhavana delivers proven 0→1 scaling (Cokpit, GTM), while Shashank brings 25+ products and deep technical expertise for SMBs. Together, they combine strategic vision with relentless execution.</p>
       </div>
     </div>
   );
