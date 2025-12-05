@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
-import { ChevronLeft, ChevronRight, Heart, DollarSign, Globe, Shield, TrendingUp, Users, Zap, Target } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Heart, DollarSign, Globe, Shield, TrendingUp, Users, Zap, Target, Linkedin } from 'lucide-react';
 
 export default function Home() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -435,10 +435,19 @@ function TeamSlide() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div>
+            <div className="flex-1">
               <h3 className="text-2xl text-[#8B1538] mb-1">Bhavana Sirpa</h3>
               <p className="text-gray-600">Co-Founder & CEO</p>
             </div>
+            <a 
+              href="https://www.linkedin.com/in/bhavana-sirpa-629586227/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-[#C41E3A] transition-colors"
+              aria-label="Bhavana Sirpa LinkedIn"
+            >
+              <Linkedin className="w-5 h-5" />
+            </a>
           </div>
           <div className="space-y-3 mb-4">
             <div className="flex items-start gap-2">
@@ -475,27 +484,36 @@ function TeamSlide() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div>
+            <div className="flex-1">
               <h3 className="text-2xl text-[#8B1538] mb-1">Shashank Jagannatham</h3>
               <p className="text-gray-600">Co-Founder & CTO</p>
             </div>
+            <a 
+              href="https://www.linkedin.com/in/shashank-jagannatham/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-[#C41E3A] transition-colors"
+              aria-label="Shashank Jagannatham LinkedIn"
+            >
+              <Linkedin className="w-5 h-5" />
+            </a>
           </div>
           <div className="space-y-3 mb-4">
             <div className="flex items-start gap-2">
               <div className="w-2 h-2 rounded-full bg-[#C41E3A] mt-2"></div>
-              <p className="text-gray-700">Founder, Kampus & MenuOS</p>
+              <p className="text-gray-700">Founded Kampus (student marketplace) & MenuOS (restaurant SaaS) in the US</p>
             </div>
             <div className="flex items-start gap-2">
               <div className="w-2 h-2 rounded-full bg-[#C41E3A] mt-2"></div>
-              <p className="text-gray-700">MS CS in University of Florida</p>
+              <p className="text-gray-700">MS CS in University of Florida (2023-25)</p>
             </div>
             <div className="flex items-start gap-2">
               <div className="w-2 h-2 rounded-full bg-[#C41E3A] mt-2"></div>
-              <p className="text-gray-700">Full-stack developer + product builder</p>
+              <p className="text-gray-700">Winner at ETHIndia, LightSpeed 2022</p>
             </div>
             <div className="flex items-start gap-2">
               <div className="w-2 h-2 rounded-full bg-[#C41E3A] mt-2"></div>
-              <p className="text-gray-700">Judge at ShellHacks & DubHacks</p>
+              <p className="text-gray-700">Judge at ShellHacks, DubHacks 2025</p>
             </div>
           </div>
           <div className="mt-4 pt-4 border-t border-gray-200">
