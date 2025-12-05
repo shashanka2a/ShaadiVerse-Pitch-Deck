@@ -112,6 +112,9 @@ function TitleSlide() {
         </p>
         <div className="mt-12 w-24 h-1 bg-[#C41E3A] mx-auto"></div>
       </div>
+      <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 z-10">
+        <p className="text-xs text-gray-500 opacity-70">For the best experience, please view on laptop or desktop</p>
+      </div>
     </div>
   );
 }
