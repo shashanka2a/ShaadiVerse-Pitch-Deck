@@ -487,7 +487,7 @@ function TeamSlide() {
             </div>
             <div className="flex items-start gap-2">
               <div className="w-2 h-2 rounded-full bg-[#C41E3A] mt-2"></div>
-              <p className="text-gray-700">Built 25 products since 2021</p>
+              <p className="text-gray-700">MS CS in University of Florida</p>
             </div>
             <div className="flex items-start gap-2">
               <div className="w-2 h-2 rounded-full bg-[#C41E3A] mt-2"></div>
