@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
-import { ChevronLeft, ChevronRight, Heart, DollarSign, Globe, Shield, TrendingUp, Users, Zap, Target, Linkedin } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Heart, DollarSign, Globe, Shield, TrendingUp, Users, Zap, Target, Linkedin, Bot } from 'lucide-react';
 
 export default function Home() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -256,6 +256,11 @@ function ProductSlide() {
       title: 'Trust Markers',
       desc: '"Aadhar Verified" badges for every vendor to prevent fraud.',
     },
+    {
+      icon: Bot,
+      title: 'AI Agent',
+      desc: 'Instant answers on pricing, vendors, and city-specific guidance.',
+    },
   ];
 
   return (
@@ -287,11 +292,6 @@ function BusinessModelSlide() {
       </div>
 
       <div className="space-y-6">
-        <div className="bg-gradient-to-r from-[#C41E3A]/10 to-transparent p-6 rounded-xl border-l-4 border-[#C41E3A]">
-          <h3 className="text-2xl text-[#8B1538] mb-3">Vendor Subscription</h3>
-          <p className="text-gray-700">Vendors pay a small monthly fee (e.g., ₹499/month) to be listed. We do not take a commission on bookings (unlike OYO/Uber).</p>
-        </div>
-        
         <div className="bg-gradient-to-r from-[#C41E3A]/10 to-transparent p-6 rounded-xl border-l-4 border-[#C41E3A]">
           <h3 className="text-2xl text-[#8B1538] mb-3">Paid Ads (Boost)</h3>
           <p className="text-gray-700">Vendors pay extra to appear at the top of search results in their city.</p>
@@ -380,6 +380,7 @@ function CompetitiveSlide() {
               <th className="p-4 text-left">Language</th>
               <th className="p-4 text-left">Focus</th>
               <th className="p-4 text-left">Verification</th>
+              <th className="p-4 text-left">AI Agent</th>
             </tr>
           </thead>
           <tbody>
@@ -389,6 +390,7 @@ function CompetitiveSlide() {
               <td className="p-4 text-gray-600">English First</td>
               <td className="p-4 text-gray-600">Metro Focus</td>
               <td className="p-4 text-gray-600">Selective</td>
+              <td className="p-4 text-gray-600">None</td>
             </tr>
             <tr className="border-b border-gray-200">
               <td className="p-4 text-[#8B1538]">JustDial</td>
@@ -396,6 +398,7 @@ function CompetitiveSlide() {
               <td className="p-4 text-gray-600">Multi-lingual</td>
               <td className="p-4 text-gray-600">General</td>
               <td className="p-4 text-gray-600">Unverified</td>
+              <td className="p-4 text-gray-600">None</td>
             </tr>
             <tr className="bg-gradient-to-r from-[#C41E3A]/10 to-transparent border-2 border-[#C41E3A]">
               <td className="p-4 text-[#C41E3A]">ShaadiVerse (Us)</td>
@@ -403,6 +406,7 @@ function CompetitiveSlide() {
               <td className="p-4 text-[#8B1538]">Multi-Lingual</td>
               <td className="p-4 text-[#8B1538]">Wedding-Only</td>
               <td className="p-4 text-[#8B1538]">Verified</td>
+              <td className="p-4 text-[#8B1538]">Built-in AI Agent</td>
             </tr>
           </tbody>
         </table>
