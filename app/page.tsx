@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
-import { ChevronLeft, ChevronRight, Heart, DollarSign, Globe, Shield, TrendingUp, Users, Zap, Target, Linkedin, Bot } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Heart, DollarSign, Globe, Shield, TrendingUp, Users, Zap, Linkedin, Bot } from 'lucide-react';
 
 export default function Home() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -240,11 +240,6 @@ function ProductSlide() {
       icon: DollarSign,
       title: '"Show Price" Button',
       desc: "No hidden costs. Vendors must display starting package rates.",
-    },
-    {
-      icon: Target,
-      title: 'Local Categories',
-      desc: 'We list "Tent Houses," "Marriage Gardens," and "Halwais" – terms locals actually use.',
     },
     {
       icon: Zap,
@@ -541,7 +536,7 @@ function AskSlide() {
       <p className="text-2xl text-gray-700 mb-12">Join Us in Digitizing India's Biggest Celebration</p>
       
       <div className="bg-gradient-to-br from-[#C41E3A]/10 to-transparent p-8 rounded-xl border-2 border-[#C41E3A] mb-8 text-center">
-        <h3 className="text-3xl text-[#C41E3A] mb-4">Raising ₹10 Lakhs</h3>
+        <h3 className="text-3xl text-[#C41E3A] mb-4">Raising ₹50 Lakhs</h3>
         <p className="text-xl text-gray-700">For 12 months of runway</p>
       </div>
 
